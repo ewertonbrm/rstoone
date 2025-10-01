@@ -12,7 +12,11 @@
   <!-- Ícones -->
   <link rel="icon" href="icon-rs-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="icon-rs-512.png" />
-
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
   <script>
     // Redireciona para o site real
     window.location.href = "https://rollingstone.com.br/"; 

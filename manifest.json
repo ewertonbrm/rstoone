@@ -1,7 +1,7 @@
 {
   "name": "Rolling Stone",
   "short_name": "RollingStone",
-  "start_url": "https://www.rollingstone.com/",
+  "start_url": "https://rollingstone.com.br/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
